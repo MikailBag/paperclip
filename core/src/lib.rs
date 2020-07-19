@@ -1,4 +1,4 @@
-#![cfg_attr(feature = "nightly", feature(specialization))]
+#![cfg_attr(feature = "nightly", feature(min_specialization))]
 //! Core structs and traits for paperclip.
 
 #[cfg_attr(feature = "v2", macro_use)]
